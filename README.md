@@ -1,0 +1,2 @@
+Vincent Brown
+  I graduated from Salisbury University in 2014 and now work for Dr.Ellis. We specialize in studying the weather and climate. I'm currently working on my thesis titled "Tennessee Tornado Climatology". My academic and career goals consist of attaining my Ph.D and being able to use R without breaking my computer. Something memorable? Maybe I love chipotle more than someone actually should. My favorite beer is Sammy Adams and I love the Pittsburgh Steelers.
