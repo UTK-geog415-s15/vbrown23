@@ -2,11 +2,7 @@
 title: "test"
 author: "Nicholas Nagle"
 date: "January 26, 2015"
-<<<<<<< HEAD
 output: html_document
-=======
-output: pdf_document
->>>>>>> aa2c1c8ab7289c658e05d1eacce45c49932899ad
 ---
 # INSTRUCTIONS:
 Edit this file by replacing the instructions with text and code to anser the questions.
