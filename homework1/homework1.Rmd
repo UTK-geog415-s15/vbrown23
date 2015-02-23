@@ -19,25 +19,10 @@ This is a question about how the axes affects how we interpret plots.
 
 Create two plots of Male-Female Christenings, one in which the y-axis scale is set by default, and one in which the y-axis extends all the way to zero.  Yes, I know that was in the tutorial.  I want to see it here.
 
-```{r}
-ggplot(data=arbuthnot) + 
-     geom_line(aes(x=Year, y=Males, color='Male')) + 
-     geom_line(aes(x=Year, y=Females, color='Females')) + ylab('Births')
- ggplot(data=arbuthnot) + 
-     geom_line(aes(x=Year, y=Males, color='Male')) + 
-     geom_line(aes(x=Year, y=Females, color='Females')) + ylab('Births') + scale_y_continuous(limits=c(0, 10000))
-```
-
-
-
-
-
  - Describe the visual appearance of the two plots.  Do they "feel" like they describe the same data?  
- I like the first (default) better because it shows more of the data. When you have the Y axis going all the way to 0 you lose some of the detail.
  - Describe how you might be able to mislead readers by changing the scaling on graphs.  
- The births look very similar with a larger y scale, when you have the y scale that is more appropriate for the data (not including 0) you can see more data and see more of the "truth".
  - Which plot seems more appropriate here?  Why?
-The default plot seems more appropriate to me. Why? Because you can see more of the data, when the y scale is set to 0 the plot is less pronounced. I like seeing the data closer up.
+
 # Question 2
 This question is designed to give you some practice with ggplot as well as describing plots in words.
 
